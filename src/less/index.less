@@ -1,0 +1,236 @@
+.picture-set(@height, @width, @position, @top, @left, @margin-left) {
+  height: @height;
+  width: @width;
+  position: @position;
+  top: @top;
+  left: @left;
+  margin-left: @margin-left;
+}
+
+#container {
+	width: 100%;
+	height: 100%
+}
+
+*{
+	touch-action: none;
+}
+
+.page {
+	width: 100%;
+	height:  100%;
+	position: absolute;
+}
+
+.page_current {
+	z-index: 2;
+}
+
+.common_img {
+    .picture-set(auto, 25px, absolute, 92%, 50%, -12px);
+}
+
+.hide {
+	display: none;
+}
+
+.page-1-1 {
+  background: #083846;
+  .img_1{
+    .picture-set(auto, 248px, absolute, 1%, 50%, -124px);
+  }
+  .img_2{
+    .picture-set(auto, 185px, absolute, 62%, 50%, -92px);
+  }
+}
+
+.page-2-1 {
+  background: #9261BF;
+  .img_1{
+    .picture-set(auto, 158px, absolute, 2%, 50%, -79px);
+    z-index:2;
+  }
+  .img_2{
+    .picture-set(auto, 240px, absolute, 28%, 50%, -120px);
+  }
+  .img_3{
+    .picture-set(auto, 241px, absolute, 36%, 50%, -120px);
+  }
+  .img_4{
+    .picture-set(auto, 20px, absolute, 87%, 50%, -10px);
+  }
+  .img_5{
+    .picture-set(auto, 142px, absolute, 82%, 50%, -71px);
+  }
+  .img_7{
+    .picture-set(auto, 248px, absolute, 8%, 50%, -124px);
+  }
+}
+
+.page-2-2 {
+  background: #9261BF;
+  .img_1 {
+    .picture-set(auto, 293px, absolute, 50%, 5%, -146px);
+  }
+  .img_2 {
+    .picture-set(auto, 260px, absolute, 50%, 75%, -130px);
+  }
+  .img_3 {
+    .picture-set(auto, 20px, absolute, 50%, 87%, -10px);
+  }
+  .img_6 {
+    .picture-set(auto, 25px, absolute, 92%, 50%, -12px);
+  }
+}
+
+.page-3-1 {
+  background: #F3533C;
+  .img_1 {
+    .picture-set(auto, 166px, absolute, 50%, 2%, -86px);
+    z-index:2;
+  }
+  .img_2 {
+    .picture-set(auto, 250px, absolute, 50%, 30%, -125px);
+  }
+  .img_3 {
+    .picture-set(auto, 172px, absolute, 50%, 28%, -55px);
+  }
+  .img_4 {
+    .picture-set(auto, 20px, absolute, 50%, 87%, -10px);
+  }
+  .img_5 {
+    .picture-set(auto, 142px, absolute, 50%, 82%, -71px);
+  }
+  .img_6 {
+    .picture-set(auto, 25px, absolute, 50%, 92%, -12px);
+  }
+  .img_7 {
+    .picture-set(auto, 248px, absolute, 50%, 43%, -124px);
+  }
+}
+
+.page-3-2 {
+  background-color:#F3533C;
+  .img_1 {
+    .picture-set(auto, 296px, absolute, 50%, 5%, -148px);
+  }
+  .img_2 {
+    .picture-set(auto, 260px, absolute, 50%, 75%, -130px);
+  }
+  .img_3 {
+    .picture-set(auto, 20px, absolute, 50%, 87%, -10px);
+  }
+  .img_6 {
+    .picture-set(auto, 25px, absolute, 50%, 92%, -12px);
+  }
+}
+
+.page-4-1 {
+  background-color:#FFBF50;
+  .img_1 {
+    height:auto;width:162px;
+    position:absolute;
+    left:50%;
+    top:2%;
+    margin-left:-84px;
+    z-index:2;
+  }
+  .img_2 {
+    height:auto;width:230px;
+    position:absolute;
+    left:50%;
+    top:28%;
+    margin-left:-115px;
+  }
+  .img_3 {
+    height:auto;width:161px;
+    position:absolute;
+    left:50%;
+    top:28%;
+    margin-left:-80px;
+  }
+  .img_4 {
+    height:auto;width:20px;
+    position:absolute;
+    left:50%;
+    top:87%;
+    margin-left:-10px;
+  }
+  .img_5 {
+    height:auto;width:142px;
+    position:absolute;
+    left:50%;
+    top:82%;
+    margin-left:-71px;
+  }
+  .img_6 {
+    height:auto;width:25px;
+    position:absolute;
+    left:50%;
+    top:92%;
+    margin-left:-12px;
+  }
+  .img_7 {
+    height:auto;width:271px;
+    position:absolute;
+    left:50%;
+    top:33%;
+    margin-left:-135px;
+  }
+  .img_8 {
+    height:auto;width:169px;
+    position:absolute;
+    left:50%;
+    top:75%;
+    margin-left:-84px;
+  }
+}
+.page-4-2 {
+  background-color:#FFBF50;
+  .img_1 {
+    height:auto;width:298px;
+    position:absolute;
+    left:50%;
+    top:5%;
+    margin-left:-149px;
+  }
+  .img_2 {
+    height:auto;width:260px;
+    position:absolute;
+    left:50%;
+    top:75%;
+    margin-left:-130px;
+  }
+  .img_3 {
+    height:auto;width:20px;
+    position:absolute;
+    left:50%;
+    top:87%;
+    margin-left:-10px;
+  }
+  .img_6 {
+    height:auto;width:25px;
+    position:absolute;
+    left:50%;
+    top:92%;
+    margin-left:-12px;
+  }
+}
+
+.page-5-1 {
+  background-color:#083846;
+  .img_1 {
+    height:auto;width:280px;
+    position:absolute;
+    left:50%;
+    top:20%;
+    margin-left:-140px;
+  }
+  .img_2 {
+    height:auto;width:260px;
+    position:absolute;
+    left:50%;
+    top:67%;
+    margin-left:-130px;
+  }
+}
