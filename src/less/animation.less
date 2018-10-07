@@ -1,0 +1,117 @@
+@animation-move: 0.6s ease both;
+
+/*top*/
+.pt-page-moveToTop{
+	animation: moveToTop @animation-move;
+}
+
+.pt-page-moveFromBottom{
+	animation: moveFromBottom @animation-move;
+}
+
+/*bottom*/
+.pt-page-moveToBottom{
+	animation: moveToBottom @animation-move;
+}
+
+.pt-page-moveFromTop{
+	animation: moveFromTop @animation-move;
+}
+
+/*left*/
+.pt-page-moveToLeft{
+	animation: moveToLeft @animation-move;
+}
+
+.pt-page-moveFromRight{
+	animation: moveFromRight @animation-move;
+}
+
+/*right*/
+.pt-page-moveToRight{
+	animation: moveToLeft @animation-move;
+}
+
+.pt-page-moveFromLeft{
+	animation: moveFromRight @animation-move;
+}
+
+@keyframes moveToTop {
+	from{}
+	to{transform: translateY(-100%)}
+}
+
+@keyframes moveFromBottom {
+	from{transform: translateY(100%)}
+	to{}
+}
+
+@keyframes moveToBottom {
+	from{}
+	to{transform: translateY(100%)}
+}
+
+@keyframes moveFromTop {
+	from{transform: translateY(-100%)}
+	to{}
+}
+
+@keyframes moveToLeft {
+	from{}
+	to{transform: translateX(-100%)}
+}
+
+@keyframes moveFromRight {
+	from{transform: translateX(100%)}
+	to{}
+}
+
+@keyframes moveToRight {
+	from{}
+	to{transform: translateX(100%)}
+}
+
+@keyframes moveFromLeft{
+	from{transform: translateX(-100%)}
+	to{}
+}
+
+.pt-page-moveIconUp {
+	animation: moveIconUp 1.5s ease both infinite;
+}
+
+@keyframes moveIconUp {
+	0% {transform: translateY(100%); opacity: 0}
+	50%{opacity: 1}
+	100%{transform: translateY(-100%); opacity: 0}
+}
+
+.pt-page-moveCircle {
+	animation: moveCircle 1.5s ease both;
+}
+
+@keyframes moveCircle {
+	0%{transform: translateY(-70%); opacity: 0.3}
+	30%{transform: translateY(10%); opacity: 0.7}
+	60%{transform: translateY(-30%); opacity: 0.8}
+	70%{transform: translateY(-10%); opacity: 1}
+	100%{transform: translateY(0%); opacity: 1}
+}
+
+.pt-page-scaleUp {
+	animation: scaleUp 0.5s ease both;
+}
+
+@keyframes scaleUp {
+	from {transform: scale(0.2)}
+	to {}
+}
+
+.pt-page-flipInLeft {
+	animation: flipInLeft 0.6s ease both;
+}
+
+@keyframes flipInLeft {
+	from {transform: rotateY(90deg)}
+	to{}
+}
